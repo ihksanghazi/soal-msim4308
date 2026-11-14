@@ -1,0 +1,1546 @@
+{
+  "title": "Administrasi Server",
+  "description": "Modul MSIM4308 Edisi 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Server yang digunakan untuk menyimpan aplikasi keuangan yang dapat diakses oleh pengguna adalah ....",
+      "options": [
+        "server database",
+        "server aplikasi",
+        "server e-mail",
+        "jawaban A, B, dan C benar"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "Server yang bertindak sebagai penerjemah antara alamat IP dengan nama domain adalah ....",
+      "options": [
+        "Web server",
+        "FTP server",
+        "DNS server",
+        "Database server"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "Berikut ini merupakan fungsi khusus dari sistem operasi jaringan, kecuali ....",
+      "options": [
+        "menghubungkan sejumlah perangkat pada suatu jaringan",
+        "menyediakan dan mengelola layanan dan sumber daya jaringan",
+        "menyediakan sistem keamanan jaringan",
+        "menyediakan interface GUI"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 4,
+      "question": "Berikut merupakan kelebihan yang dimiliki sistem operasi UNIX, kecuali ....",
+      "options": [
+        "multiuser",
+        "multitasking",
+        "command line interface",
+        "hierarchical file system"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "Berikut yang merupakan sistem operasi yang merupakan turunan dari RedHat, kecuali ....",
+      "options": [
+        "Ubuntu",
+        "Fedora",
+        "CentOS",
+        "Mandriva"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "question": "Linux SUSE merupakan turunan dari distro ....",
+      "options": [
+        "RedHat",
+        "Debian",
+        "Slackware",
+        "Ubuntu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "Distro Linux tertua di antara distro berikut adalah ....",
+      "options": [
+        "RedHat",
+        "Debian",
+        "Slackware",
+        "Ubuntu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "question": "Apa yang dimaksud dengan distro ....",
+      "options": [
+        "sistem operasi yang dibangun dari Kernel Linux dengan penambahan komponen tertentu",
+        "sistem operasi yang dibangun dari Kernel Unix dengan penambahan komponen tertentu",
+        "sistem operasi yang dibangun dari Kernel Windows dengan penambahan komponen tertentu",
+        "jawaban A, B, dan C benar"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "question": "Berikut ini adalah tugas dan tanggung jawab administrator server, kecuali ....",
+      "options": [
+        "memastikan server berjalan dengan baik dan optimal",
+        "mengatasi segala permasalahan atau troubleshooting yang terjadi pada server",
+        "memastikan server berjalan dengan baik dan optimal",
+        "membangun aplikasi keuangan"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 10,
+      "question": "Kebebasan yang diberikan GNU General Public License bagi pengguna untuk ....",
+      "options": [
+        "menggunakan, mendistribusikan dan mengembangkan perangkat lunak",
+        "menggunakan, menjual dan mengembangkan perangkat lunak",
+        "menggunakan, mendistribusikan dan menjual perangkat lunak",
+        "menjual, mendistribusikan dan mengembangkan perangkat lunak"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "question": "Berikut ini merupakan jenis-jenis user yang terdapat pada sistem operasi, kecuali ....",
+      "options": [
+        "super user",
+        "pengguna biasa",
+        "system user",
+        "file user"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 12,
+      "question": "Service Account pada sistem operasi Windows merupakan jenis user ....",
+      "options": [
+        "super user",
+        "pengguna biasa",
+        "system user",
+        "file user"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "question": "Root merupakan akun yang termasuk dalam jenis pengguna ....",
+      "options": [
+        "super user",
+        "pengguna biasa",
+        "system user",
+        "file user"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "question": "Berikut merupakan aktivitas pengelolaan user, kecuali ....",
+      "options": [
+        "menambah user",
+        "menghapus user",
+        "mengubah user",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 15,
+      "question": "Sintak [root@localhost ~]# who berfungsi untuk menampilkan ....",
+      "options": [
+        "user yang login pada sistem",
+        "user yang login pada sistem dan aktivitas yang dilakukan",
+        "pengguna yang gagal masuk ke sistem",
+        "login terbaru semua pengguna dari file /var/log/lastlog"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "question": "Sintak berikut merupakan sintak yang digunakan untuk melakukan pemantauan terhadap user, kecuali ....",
+      "options": [
+        "[root@localhost ~]# who",
+        "[root@localhost ~]# w",
+        "[root@localhost ~]# useradd user1",
+        "[root@localhost ~]# last"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 17,
+      "question": "Sintak yang digunakan untuk memperoleh hak akses root pada CentOS adalah ....",
+      "options": [
+        "test@localhost ~]$ sudo su",
+        "admin@localhost ~]$ sudo",
+        "admin@localhost ~]$ sudo root",
+        "test@localhost ~]$ sudo root"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "question": "Dampak yang ditimbulkan sintak berikut:\n\nroot@localhost admin]# cat /etc/passwd\n\nadalah sistem akan menampilkan daftar ....",
+      "options": [
+        "password",
+        "pengguna",
+        "file",
+        "jawaban A, B, dan C benar"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "File yang digunakan untuk menyimpan informasi password pada sistem operasi CentOS adalah ....",
+      "options": [
+        "/etc/passwd",
+        "/etc/shadow",
+        "/etc/password",
+        "/etc/user"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "File /etc/login.defs berfungsi untuk menyimpan informasi tentang ....",
+      "options": [
+        "kerangka untuk home directory dari pengguna",
+        "nilai properti pengguna",
+        "kebijakan standar password pengguna",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 21,
+      "question": "Berapa kapasitas efektif pada RAID 5 jika Anda memiliki 10 yang masing-masing disk berkapasitas 2TB ....",
+      "options": [
+        "20 TB",
+        "18 TB",
+        "14 TB",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "Berapa kapasitas efektif pada RAID 0 jika Anda memiliki 10 yang masing-masing disk berkapasitas 2TB ....",
+      "options": [
+        "20 TB",
+        "18 TB",
+        "14 TB",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "question": "Berikut ini merupakan aktivitas yang dilakukan oleh administrator dalam mengelola storage, kecuali ....",
+      "options": [
+        "melakukan aktivitas backup & restore",
+        "memantau penggunaan storage",
+        "menghabiskan ruang disk",
+        "memastikan ketersediaan disk"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 24,
+      "question": "Skema yang digunakan untuk menentukan lokasi blok data pada GPT adalah ....",
+      "options": [
+        "MBR",
+        "CHS",
+        "LBA",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "question": "Partisi yang merupakan bagian dari extended partition adalah ....",
+      "options": [
+        "primary partition",
+        "logical partition",
+        "extended partition",
+        "RAID"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "Berikut merupakan karakteristik MBR, kecuali ....",
+      "options": [
+        "kapasitas maksimum harddisk maksimal 2 TB",
+        "hanya dapat membentuk 4 primary partition",
+        "hanya dapat membentuk 3 primary partition ditambah 1 extended partition",
+        "kapasitas maksimum harddisk maksimal 8 TB"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 27,
+      "question": "Partisi swap adalah disebut ....",
+      "options": [
+        "suatu alokasi ruang di harddisk yang digunakan sebagai cadangan jika memori ROM tidak mencukupi",
+        "suatu alokasi ruang di harddisk yang digunakan sebagai cadangan jika memori RAM tidak mencukupi",
+        "suatu alokasi ruang di harddisk yang digunakan sebagai cadangan jika bandwidth tidak mencukupi",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "Berikut sintak yang biasa digunakan untuk memonitor penggunaan disk, kecuali ....",
+      "options": [
+        "df",
+        "lsblk",
+        "parted",
+        "mkfs"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 29,
+      "question": "File system default yang digunakan sistem operasi CentOS 7 adalah ....",
+      "options": [
+        "NTFS",
+        "XFS",
+        "FAT",
+        "EXT3"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "MBR diakses pada saat proses booting dengan langkah-langkah ....\n\na. bootloader membaca tabel partisi\nb. memuat sistem operasi\nc. BIOS mencari bootloader pada MBR, lalu menjalankannya\nd. inisialisasi sistem dengan firmware yang disebut BIOS\n\nUrutkan langkah-langkah yang terjadi pada proses booting ....",
+      "options": [
+        "a – b – c – d",
+        "d – a – c – b",
+        "d – a – b – c",
+        "b – d – c – a"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "Berikut ini merupakan perangkat lunak yang digunakan untuk file sharing, kecuali ....",
+      "options": [
+        "Samba",
+        "NFS",
+        "FTP",
+        "DNS"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 32,
+      "question": "Berikut merupakan daemon yang digunakan oleh Samba, kecuali ....",
+      "options": [
+        "smbd",
+        "rpcbind",
+        "nmbd",
+        "winbindd"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "Port yang digunakan oleh Samba adalah ....",
+      "options": [
+        "445 dan 139",
+        "445 dan 80",
+        "8080 dan 139",
+        "139 dan 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "question": "Port yang digunakan oleh daemon nmbd adalah ....",
+      "options": [
+        "139",
+        "445",
+        "137",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 35,
+      "question": "Verifikasi hasil konfigurasi samba dapat menggunakan sintak ....",
+      "options": [
+        "testpram",
+        "systemctl start smb",
+        "nano /etc/samba/smb.conf",
+        "testparm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 36,
+      "question": "Berikut layanan (service) yang mendukung NFS, kecuali ....",
+      "options": [
+        "RPCbind",
+        "NFS-server",
+        "NFS-lock",
+        "NFS-map"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 37,
+      "question": "Layanan NFS yang digunakan untuk memetakan service RPC berdasarkan port yang digunakan adalah ....",
+      "options": [
+        "RPCbind",
+        "NFS-server",
+        "NFS-lock",
+        "NFS-idmap"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 38,
+      "question": "Protokol dan port yang digunakan NFS adalah ....",
+      "options": [
+        "TCP – RPC – 2049",
+        "TCP – RPC – 2490",
+        "UDP – RPC – 2049",
+        "UDP – RPC – 2490"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "question": "Berikut merupakan sintak yang digunakan untuk mengaktifkan penggunaan NFS, kecuali ....",
+      "options": [
+        "systemctl enable nfs-server",
+        "systemctl start rpcbind",
+        "systemctl start nfs-idmap",
+        "systemctl start nmb"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 40,
+      "question": "Sintak firewall berikut diperlukan untuk file sharing NFS, kecuali ....",
+      "options": [
+        "firewall-cmd --permanent --zone public --add-service mountd",
+        "firewall-cmd --permanent --zone public --add-service rpc-bind",
+        "firewall-cmd --permanent --zone=public --add-service=samba",
+        "firewall-cmd --permanent --zone public --add-service nfs"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 41,
+      "question": "Hak akses yang memiliki kemampuan untuk membaca, menulis, mengubah, dan menghapus file dan subfolder ....",
+      "options": [
+        "full control",
+        "read",
+        "write",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 42,
+      "question": "Berikut merupakan hak akses yang terdapat pada folder sharing permission, kecuali ....",
+      "options": [
+        "full control",
+        "change",
+        "modify",
+        "read"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 43,
+      "question": "Hak akses default yang terpasang pada sharing folder pada sistem operasi Windows adalah ....",
+      "options": [
+        "everyone – read",
+        "everyone – full control",
+        "everyone – modify",
+        "everyone – write"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "question": "User1 merupakan anggota dari Object Group X yang memiliki hak akses Change pada share permission dan Read pada NTFS permission, maka hak akses yang akan dimiliki oleh User1 adalah ....",
+      "options": [
+        "change",
+        "read",
+        "write",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "question": "Sintak yang digunakan untuk membuat atau mengubah hak akses terhadap suatu file atau direktori adalah ....",
+      "options": [
+        "chmod",
+        "chown",
+        "getfacl",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "question": "Sintak chown digunakan untuk ....",
+      "options": [
+        "mengubah hak akses suatu file atau direktori",
+        "mengubah kepemilikan file atau direktori",
+        "memasang access list control",
+        "mengubah nama file atau direktori"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "question": "Anda akan memasangkan hak akses pada folder1 bagi:\n- pemilik file : read, write dan execute\n- group       : read dan execute\n- other       : read dan execute\n\nPemasangan chmod yang sesuai dengan maksud tersebut adalah ....",
+      "options": [
+        "#chmod 755 folder1",
+        "#chmod 756 folder1",
+        "#chmod 755 folder01",
+        "#chmod 775 folder1"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "question": "Berikut sintak yang digunakan untuk melakukan verifikasi pemasangan hak akses mode ACL adalah ....",
+      "options": [
+        "setfacl",
+        "getacl",
+        "setacl",
+        "getfacl"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 49,
+      "question": "Sudo merupakan salah satu contoh file executable yang memiliki hak akses khusus ....",
+      "options": [
+        "sticky",
+        "setuid",
+        "getid",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "Tampilan berikut ini:\n\n-rwxrwxrwt. 1 user10 user10 6 Apr 21 16:56 file1.txt\n\nMenandai bahwa file1.txt terpasang hak akses khusus ....",
+      "options": [
+        "sticky",
+        "setuid",
+        "getid",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 51,
+      "question": "DHCP merupakan server yang berfungsi untuk ....",
+      "options": [
+        "menyediakan dan mendistribusikan alamat IP secara otomatis",
+        "menyediakan dan mendistribusikan alamat IP secara manual",
+        "melakukan pemetaan alamat IP dan nama host",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 52,
+      "question": "Berikut merupakan parameter-parameter yang digunakan dalam komunikasi antara DHCP server dan client, kecuali ....",
+      "options": [
+        "DHCP REQUEST",
+        "DHCP OFFER",
+        "DHCP CONFLICT",
+        "DHCP DISCOVER"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 53,
+      "question": "Konfigurasi DHCP pada sistem operasi Linux dapat dilakukan melalui file berikut ....",
+      "options": [
+        "/etc/dhcp.conf",
+        "/etc/dhcpp.conf",
+        "/etc/dhcpd.conf @",
+        "/var/dhcpd.conf"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 54,
+      "question": "Option router pada konfigurasi DHCP berfungsi untuk ....",
+      "options": [
+        "menentukan alamat DNS",
+        "menentukan alamat IP dari suatu host",
+        "menentukan default gateway yang digunakan suatu host",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 55,
+      "question": "Layanan DHCP pada sistem operasi Linux diaktifkan dengan menggunakan sintak berikut ....",
+      "options": [
+        "systemctl enable dhcpd",
+        "systemctl disable dhcpd",
+        "systemctl enable dhcp",
+        "systemctl enable network"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 56,
+      "question": "Mekanisme reservasi pada DHCP dapat dilakukan dengan cara ....",
+      "options": [
+        "memetakan alamat Mac dengan alamat IP",
+        "memetakan alamat Mac dengan alamat Mac DHCP",
+        "memetakan alamat Mac dengan nama host",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 57,
+      "question": "Untuk memantau penggunaan alamat IP pada DHCP server dapat dilakukan dengan menggunakan sintak berikut ....",
+      "options": [
+        "systemctl status dhcpp -l",
+        "systemctl status dhcp -l",
+        "systemctl status dhcpd -l",
+        "systemctl restart dhcpd"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 58,
+      "question": "Fungsi DHCP Relay agent adalah ....",
+      "options": [
+        "mendistribusikan alamat IP dari DHCP server ke DHCP client yang lokasinya berada dalam satu network address.",
+        "mendistribusikan alamat IP dari DHCP server ke DHCP client yang lokasinya berada pada network address yang berbeda.",
+        "mendistribusikan alamat IP dari DHCP server ke DHCP client yang lokasinya berada pada network address yang sama.",
+        "mendistribusikan alamat IP dari DHCP client ke DHCP client yang lokasinya berada pada network address yang berbeda."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "question": "Perhatikan gambar berikut ....\n\nProses tersebut dapat dilihat dengan menggunakan sintak ....",
+      "options": [
+        "systemctl status dhcpd",
+        "systemctl status dhcp -l",
+        "systemctl status dhcpd -l",
+        "systemctl restart dhcpd"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 60,
+      "question": "Proses DHCP Client meminta DHCP server untuk menyewakan alamat IP terjadi pada saat tahapan ....",
+      "options": [
+        "DHCP REQUEST",
+        "DHCP OFFER",
+        "DHCP ACK",
+        "DHCP DISCOVER"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 61,
+      "question": "DNS merupakan server yang berfungsi untuk ....",
+      "options": [
+        "menyediakan dan mendistribusikan alamat IP secara otomatis",
+        "menyediakan dan mendistribusikan alamat IP secara manual",
+        "melakukan pemetaan alamat IP dan nama host",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 62,
+      "question": "Berikut merupakan record-record yang terdapat pada DNS, kecuali ....",
+      "options": [
+        "A record",
+        "AAAA record",
+        "AA record",
+        "PTR record"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 63,
+      "question": "Paket yang digunakan untuk membangun DNS di CentOS adalah ....",
+      "options": [
+        "dhcpd",
+        "dns",
+        "bind",
+        "/var/dhcpd.conf"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 64,
+      "question": "Jenis top level domain yang berdasarkan pada kode negara adalah ....",
+      "options": [
+        "Global TLD",
+        "gTLD",
+        "CCTLD",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 65,
+      "question": "Record DNS yang berfungsi untuk menyimpan informasi nama alias suatu host adalah ....",
+      "options": [
+        "MX record",
+        "A record",
+        "NS record",
+        "CNAME record"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 66,
+      "question": "MX record berfungsi untuk menyimpan informasi domain yang terkait dengan ....",
+      "options": [
+        "email routing",
+        "reverse lookup",
+        "file server",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 67,
+      "question": "Untuk memperoleh informasi lengkap suatu domain dapat menggunakan ....",
+      "options": [
+        "dns",
+        "systemctl status dhcp -l",
+        "systemctl status dns",
+        "dig"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 68,
+      "question": "Tool yang digunakan untuk melihat query DNS Server yang digunakan dan juga untuk melihat IP Address suatu domain adalah ....",
+      "options": [
+        "nslookup",
+        "netstat",
+        "ping",
+        "Jawaban A, B, dan C semua benar"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 69,
+      "question": "Port yang digunakan oleh DNS adalah ....",
+      "options": [
+        "80",
+        "53",
+        "56",
+        "35"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 70,
+      "question": "Proses pemetaan suatu host berdasarkan nama server/domain menjadi alamat IP ....",
+      "options": [
+        "reverse lookup zone",
+        "lookup zone",
+        "start of authority",
+        "forward lookup zone"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 71,
+      "question": "Port yang digunakan oleh layanan HTTP adalah ....",
+      "options": [
+        "80",
+        "443",
+        "445",
+        "53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 72,
+      "question": "HTTPS merupakan kombinasi dari protokol HTTP dengan protokol ....",
+      "options": [
+        "SSH",
+        "SFTP",
+        "SSL",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 73,
+      "question": "Berikut ini merupakan perangkat lunak yang digunakan pada web client, kecuali ....",
+      "options": [
+        "internet information service (IIS)",
+        "internet explorer",
+        "google chrome",
+        "safari"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 74,
+      "question": "Port yang digunakan untuk layanan HTTPS adalah ....",
+      "options": [
+        "80",
+        "443",
+        "445",
+        "53"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 75,
+      "question": "Virtual host merupakan ....",
+      "options": [
+        "mekanisme pada web server untuk menyediakan lebih dari satu website pada satu mesin web server.",
+        "mekanisme pada DNS server untuk menyediakan lebih dari satu domain pada satu mesin DNS server.",
+        "mekanisme pada web server untuk menyediakan lebih dari satu domain pada satu mesin web server.",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 76,
+      "question": "Default home directory dari Web server IIS berada pada direktori ....",
+      "options": [
+        "/var/www/html",
+        "C:\\Inetpub\\wwwroot",
+        "/etc/named.conf",
+        "C:\\Inetpub"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 77,
+      "question": "Berikut sintak yang digunakan untuk memantau status HTTP ....",
+      "options": [
+        "systemctl restart httpd",
+        "systemctl status http",
+        "systemctl status httpd",
+        "systemctl enable httpd"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 78,
+      "question": "Berikut merupakan perangkat lunak yang bersifat open source yang digunakan pada web server, kecuali ....",
+      "options": [
+        "Nginx",
+        "Apache",
+        "Openlitespeed",
+        "Internet Information Service"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 79,
+      "question": "Konfigurasi SSLProtocol dilakukan pada file berikut ....",
+      "options": [
+        "/etc/http/conf.d/ssl.conf",
+        "/etc/httpd/conf.d/ssl.conf",
+        "/etc/httpd/conf.d/httpd.conf",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 80,
+      "question": "File konfigurasi pada web server Apache adalah ....",
+      "options": [
+        "/etc/httpd/conf/httpd.conf",
+        "/etc/http/conf/httpd.conf",
+        "/etc/httpd/conf/http.conf",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 81,
+      "question": "Perhatikan gambar berikut!\n\n+----------+-------------+\n| user     | host        |\n+----------+-------------+\n| root     | 127.0.0.1   |\n| root     | ::1         |\n| root     | localhost   |\n| user_DB  | localhost   |\n+----------+-------------+\n\nQuery yang diperlukan untuk menampilkan daftar berikut adalah ....",
+      "options": [
+        "CREATE user;",
+        "SELECT user, host From mysql.user;",
+        "SELECT user, host From database;",
+        "DROP user;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "question": "Perintah yang digunakan untuk menghapus Tabel10 adalah ....",
+      "options": [
+        "DROP Tabel10;",
+        "DROP table Table10;",
+        "DROP table Tabel10;",
+        "DROP tabel Tabel10;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 83,
+      "question": "Hak akses yang dimiliki pengguna database dapat dilihat dengan menggunakan sintak ....",
+      "options": [
+        "show grants",
+        "show database",
+        "show table",
+        "show users"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 84,
+      "question": "Status layanan MariaDB dapat diketahui secara rinci dengan menggunakan sintak ....",
+      "options": [
+        "systemctl status mariaDB",
+        "systemctl status mariaDB -l",
+        "systemctl monitor mariaDB",
+        "systemctl status database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 85,
+      "question": "Berikut merupakan perangkat lunak server database yang dapat diinstal pada sistem operasi Linux, kecuali ....",
+      "options": [
+        "MariaDB",
+        "MySQL",
+        "SQL Server",
+        "Postgre"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 86,
+      "question": "Berikut merupakan tiga jenis data yang terdapat pada database, kecuali ....",
+      "options": [
+        "data input",
+        "data output",
+        "data operasional",
+        "data fungsional"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 87,
+      "question": "Kumpulan data yang disusun dalam bentuk tabel-tabel yang saling berhubungan satu dengan lainnya disebut ....",
+      "options": [
+        "record",
+        "database",
+        "field",
+        "secure socket layer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "Berikut merupakan perangkat lunak yang umum digunakan pada server database, kecuali ....",
+      "options": [
+        "MySQL",
+        "Postgre",
+        "MariaDB",
+        "Zimbra"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 89,
+      "question": "Perintah berikut digunakan untuk melakukan penjadwalan suatu aktivitas yang secara periodik dan otomatis dilakukan ....",
+      "options": [
+        "Backup.sh",
+        "crontab",
+        "gunzip",
+        "bash"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 90,
+      "question": "Perhatikan sintak berikut!\njawaban : 0\n\n# mysql -u user_DB -p Fakultas < /srv/backup/db/Fakultas.sql\n\nMaksud dari perintah tersebut adalah ....",
+      "options": [
+        "melakukan aktivitas restore database",
+        "membuka file yang berada di /srv/backup/db/Fakultas.sql",
+        "membuka aplikasi mysql",
+        "jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 91,
+      "question": "Berikut merupakan beberapa perangkat lunak yang digunakan untuk mengelola server dari jarak jauh, kecuali ....",
+      "options": [
+        "VMware",
+        "VNC",
+        "Telnet",
+        "Secure Shell"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 92,
+      "question": "Port yang secara default digunakan oleh protokol SSH adalah ....",
+      "options": [
+        "23",
+        "21",
+        "22",
+        "20"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 93,
+      "question": "Perangkat lunak yang dapat digunakan untuk mengakses desktop grafis dari suatu komputer dari jarak jauh adalah ....",
+      "options": [
+        "Virtual Network Computing",
+        "Virtual Network Desktop",
+        "Secure shell",
+        "Telnet"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 94,
+      "question": "VNC server dapat diakses melalui client menggunakan perangkat lunak ....",
+      "options": [
+        "VMware",
+        "VNC Viewer",
+        "Anydesk",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 95,
+      "question": "Sintak yang digunakan untuk menginstal SSH di sistem operasi CentOS 7 adalah ....",
+      "options": [
+        "#yum -y install openssh-server openssh-clients",
+        "#yum update",
+        "#yum install telnet telnet-server -y",
+        "# install openssh-server openssh-clients"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 96,
+      "question": "Port yang digunakan oleh Telnet adalah ....",
+      "options": [
+        "firewall-cmd --permanent --add-port=20/tcp",
+        "firewall-cmd --permanent --add-port=23/tcp",
+        "firewall-cmd --permanent --add-port=21/tcp",
+        "firewall-cmd --permanent --add-port=22/tcp"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 97,
+      "question": "Lokasi file konfigurasi VNC server terdapat di dalam direktori ....",
+      "options": [
+        "/etc/system/vnc/",
+        "/etc/systemd/vnc/",
+        "/lib/systemd/system/",
+        "/etc/systemd/system/"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 98,
+      "question": "Sekumpulan komponen yang menyediakan akses mirip terminal ke komputer jarak jauh adalah ....",
+      "options": [
+        "FTP",
+        "HTTP",
+        "DNS",
+        "TELNET"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 99,
+      "question": "Aplikasi shell yang digunakan untuk membuat koneksi terenkripsi antar sistem sehingga koneksi menjadi lebih aman ....",
+      "options": [
+        "Telnet",
+        "SSH",
+        "HTTP",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 100,
+      "question": "SSH memiliki kemampuan untuk membangkitkan kunci publik dan privat, hal tersebut dapat dilakukan dengan menggunakan sintak ....",
+      "options": [
+        "ssh-keygen -t rsa",
+        "ssh-password -t rsa",
+        "ssh-public -t rsa",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 101,
+      "question": "Berikut ini merupakan beberapa protokol yang digunakan dalam sistem email, kecuali ....",
+      "options": [
+        "File Transfer Protocol",
+        "Simple Mail Transfer Protocol",
+        "Post Office Protocol v3",
+        "Internet Message Access Protocol"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 102,
+      "question": "Port 143 merupakan port standar yang digunakan oleh protokol ....",
+      "options": [
+        "File Transfer Protocol",
+        "Simple Mail Transfer Protocol",
+        "Post Office Protocol v3",
+        "Internet Message Access Protocol"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 103,
+      "question": "Multipurpose Internet Mail Extension (MIME) merupakan fitur yang mengizinkan sistem email untuk ....",
+      "options": [
+        "Mengirimkan data selain teks",
+        "Mengenkripsi data",
+        "Menambah tingkat keamanan",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 104,
+      "question": "Protokol yang merupakan Mail Transport Agent adalah ....",
+      "options": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "Telnet"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 105,
+      "question": "Microsoft Outlook merupakan sistem yang termasuk dalam kategori ....",
+      "options": [
+        "Mail User Agent",
+        "Mail Transport Agent",
+        "Mail Delivery Agent",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 106,
+      "question": "Postfix dapat dikonfigurasi melalui file ....",
+      "options": [
+        "/etc/postfix/main.pf",
+        "/etc/postfix/main.cf",
+        "/etc/postfix/main.pl",
+        "/etc/postfix/main.cf"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 107,
+      "question": "Perangkat lunak yang digunakan untuk menyediakan layanan POP3 dan IMAP adalah ....",
+      "options": [
+        "Dovecot",
+        "Postfix",
+        "Squirrelmail",
+        "Sendmail"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 108,
+      "question": "Perhatikan sintak berikut:\n\n[root@localhost ~]# telnet localhost smtp\n\nPort yang dituju oleh perintah di atas adalah ....",
+      "options": [
+        "23",
+        "21",
+        "22",
+        "25"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 109,
+      "question": "Berikut merupakan perangkat lunak yang umum digunakan pada mail server, kecuali ....",
+      "options": [
+        "Microsoft Exchange Server",
+        "Postfix",
+        "Zimbra",
+        "Microsoft ISA Server"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 110,
+      "question": "Program server yang menerima email dari MUA, memeriksa kemudian mentransfer menggunakan SMTP ke MTA di server yang sama adalah ....",
+      "options": [
+        "Mail User Agent",
+        "Mail Transport Agent",
+        "Mail Delivery Agent",
+        "Mail Submission Agent"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 111,
+      "question": "Berikut ini merupakan karakteristik cloud computing, kecuali ....",
+      "options": [
+        "On-demand self-service",
+        "Broad network access",
+        "Resource pooling",
+        "Software as a service"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 112,
+      "question": "Layanan disaster yang menyediakan serangkaian server mirrored stand-by dan melakukan replikasi yang tersinkronisasi untuk mencegah kehilangan data akibat bencana adalah ....",
+      "options": [
+        "Hot backup site",
+        "Warm backup site",
+        "Cold backup site",
+        "Snapshot backup site"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 113,
+      "question": "Waktu maksimal yang diperlukan mulai dari terjadinya insiden sehingga layanan tidak tersedia sampai layanan kembali berjalan normal adalah ....",
+      "options": [
+        "RTO (Request Time Out)",
+        "RPO (Recovery Point Objective)",
+        "RTO (Recovery Time Objective)",
+        "SLA (Service Level Agreement)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 114,
+      "question": "Berdasarkan area data center, server akan disimpan pada area ....",
+      "options": [
+        "HDA",
+        "EDA",
+        "Entrance room",
+        "MDA"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 115,
+      "question": "Berdasarkan SNI 8799-1, temperatur ruangan untuk pengoperasian peralatan teknologi informasi sebagai berikut, kecuali ....",
+      "options": [
+        "Temperatur ruangan: 18°C–27°C",
+        "Kelembapan ruangan ≤ 60%",
+        "Tingkat perubahan temperatur ruangan per-jam maksimum: 5°C",
+        "Tingkat perubahan kelembapan ruangan maksimum per-jam: 50% RH"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 116,
+      "question": "Kemampuan untuk beradaptasi dengan pertumbuhan kebutuhan bisnis yang cepat merupakan kriteria data center ....",
+      "options": [
+        "Ketersediaan",
+        "Skalabilitas dan fleksibilitas",
+        "Keamanan",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 117,
+      "question": "Data center dengan tingkat ketersediaan 99,982% merupakan tier ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 118,
+      "question": "Berikut merupakan komponen-komponen data center, kecuali ....",
+      "options": [
+        "Server",
+        "Power distribution system",
+        "Cooling system",
+        "PABX"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 119,
+      "question": "Data center dengan tingkat ketersediaan 99,995% dapat memberikan toleransi downtime selama ....",
+      "options": [
+        "0,4 jam dalam sebulan",
+        "0,4 jam dalam setahun",
+        "4 jam dalam sebulan",
+        "4 jam dalam setahun"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 120,
+      "question": "Data center tier 2 memiliki tingkat ketersediaan ....",
+      "options": [
+        "99%",
+        "99,741%",
+        "99,671%",
+        "99,995%"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 121,
+      "question": "Arsitektur baremetal digunakan pada jenis hypervisor ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 122,
+      "question": "Hypervisor yang memiliki akses langsung ke perangkat keras tanpa harus melalui sistem operasi ....",
+      "options": [
+        "Baremetal architecture",
+        "Hosted architecture",
+        "Hypervisor 3",
+        "Hypervisor 2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 123,
+      "question": "Pendekatan virtualisasi yang menyediakan pemisahan secara menyeluruh dari setiap mesin virtual adalah ....",
+      "options": [
+        "Para virtualization",
+        "OS virtualization",
+        "Full virtualization",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 124,
+      "question": "Kekurangan teknologi virtualisasi adalah ....",
+      "options": [
+        "Hanya dapat digunakan untuk lingkungan pengujian dan pengembangan",
+        "Tidak dapat digunakan untuk redundansi server",
+        "Tidak dapat meningkatkan ketersediaan server",
+        "Server fisik mati menyebabkan seluruh mesin virtual pada server tersebut juga mati"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 125,
+      "question": "Fungsi hypervisor adalah ....",
+      "options": [
+        "Melindungi sistem operasi",
+        "Melakukan pemisahan sistem operasi dengan aplikasi",
+        "Melakukan abstraksi dari sumber daya fisik menjadi beberapa sumber daya virtual",
+        "Jawaban A, B, dan C salah"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 126,
+      "question": "Mesin virtual adalah ....",
+      "options": [
+        "Mesin yang dapat menjalankan sistem operasi dan aplikasinya sendiri.",
+        "Perangkat lunak terpisah yang dapat menjalankan sistem operasi dan aplikasinya sendiri seolah-olah dijalankan pada komputer fisik.",
+        "Perangkat lunak terpisah yang tidak dapat menjalankan sistem operasi dan aplikasinya sendiri seolah-olah dijalankan pada komputer fisik.",
+        "Mesin yang dapat menjalankan sistem operasi dan aplikasinya secara terpisah."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 127,
+      "question": "Perangkat lunak yang menggunakan pendekatan hypervisor tipe 2 di antaranya adalah ....",
+      "options": [
+        "Microsoft Virtual PC",
+        "ESX",
+        "XEN",
+        "Jawaban A, B, dan C salah."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 128,
+      "question": "Perangkat lunak yang secara dinamis mengalokasikan sumber daya di komputer fisik pada virtual machine sesuai dengan yang dibutuhkan adalah ....",
+      "options": [
+        "CentOS",
+        "Software driver",
+        "Hypervisor",
+        "Sistem operasi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 129,
+      "question": "Berikut merupakan perangkat lunak yang umum digunakan pada virtualisasi server, kecuali ....",
+      "options": [
+        "VMware",
+        "Xen",
+        "Virtual mesin",
+        "VirtualBox"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 130,
+      "question": "Kemampuan teknologi virtualisasi adalah ....",
+      "options": [
+        "Dapat menggunakan spesifikasi hardware yang rendah",
+        "Efisiensi biaya",
+        "Efisiensi sumber daya",
+        "Memiliki fleksibilitas yang tinggi"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 131,
+      "question": "Berikut merupakan manfaat dari penerapan SOP, kecuali ....",
+      "options": [
+        "Dapat meminimalisir kesalahan.",
+        "Pengelola mengetahui tugas dan tanggung jawabnya masing-masing.",
+        "Menciptakan pekerjaan.",
+        "Membuat pengelola baru relatif lebih mudah beradaptasi dengan pekerjaan dan lingkungannya."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 132,
+      "question": "SOP harus mengandung standar kualitas tertentu yang dapat diukur pencapaiannya merupakan salah satu prinsip penyusunan SOP yaitu ....",
+      "options": [
+        "Jelas dan mudah.",
+        "Dinamis.",
+        "Terukur.",
+        "Efektif."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 133,
+      "question": "Tujuan dari tahapan simulasi dari suatu SOP adalah ....",
+      "options": [
+        "Mengetahui dampak penerapan SOP.",
+        "Menentukan tujuan penerapan SOP.",
+        "Membuat rancangan SOP.",
+        "Jawaban A, B, dan C salah."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 134,
+      "question": "Prinsip-prinsip standard operational procedure sebagai berikut, kecuali ....",
+      "options": [
+        "Keselarasan.",
+        "Kepatuhan dan kepastian hukum.",
+        "Efektif dan efisien.",
+        "Jelas walaupun rumit."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 135,
+      "question": "Berdasarkan sifat dari kegiatannya, SOP terdiri atas ....",
+      "options": [
+        "SOP mikro dan administrasi.",
+        "SOP makro dan administrasi.",
+        "SOP teknis dan administrasi.",
+        "SOP teknis dan mikro."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 136,
+      "question": "SOP yang berisi serangkaian aktivitas yang dapat menjadi bagian dari SOP yang lebih besar cakupannya adalah ....",
+      "options": [
+        "SOP teknis.",
+        "SOP makro.",
+        "SOP administrasi.",
+        "SOP mikro."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 137,
+      "question": "Jenis-jenis format SOP adalah ....",
+      "options": [
+        "Flowchart dan narasi.",
+        "Gambar dan formulir isian.",
+        "Video dan formulir isian.",
+        "Formulir isian dan narasi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 138,
+      "question": "Strategi penerapan SOP meliputi langkah-langkah sebagai berikut:\n    1. Supervisi\n    2. Distribusi dan aksesibilitas\n    3. Pemberitahuan\n    4. Perencanaan penerapan SOP\n    5. Pelatihan\n\nPilihan jawaban:",
+      "options": [
+        "1 – 2 – 3 – 4 – 5",
+        "4 – 3 – 2 – 5 – 1",
+        "4 – 3 – 1 – 5 – 2",
+        "1 – 3 – 5 – 4 – 2"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 139,
+      "question": "Parameter yang digunakan untuk mutu baku pada aktivitas suatu SOP, kecuali ....",
+      "options": [
+        "Waktu",
+        "Persyaratan",
+        "Output",
+        "Keterangan"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 140,
+      "question": "Urutan SOP yang benar untuk pendaftaran nama domain adalah ....\n    1. Upload dokumen persyaratan pendaftaran nama domain\n    2. Pengecekan nama domain\n    3. Membuat keputusan persetujuan atau penolakan\n    4. Melakukan pembayaran\n    5. Menerima konfirmasi aktivasi nama domain\n    6. Mendaftarkan nama domain melalui domain.go.id\n    7. Menerima konfirmasi persetujuan\n\nPilihan jawaban:",
+      "options": [
+        "6 – 1 – 2 – 3 – 5 – 4 – 7",
+        "1 – 2 – 3 – 5 – 4 – 7 – 6",
+        "6 – 1 – 2 – 3 – 7 – 4 – 5",
+        "7 – 1 – 2 – 3 – 5 – 4 – 6"
+      ],
+      "answer": 2
+    }
+  ]
+}
